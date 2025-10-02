@@ -1,4 +1,4 @@
-# Fruit Stocks AI Dashboard
+# 🔥 Fruit Stocks AI Dashboard 🔥
 
 A full-stack demo that tracks **Apple**, **Orange**, and **Banana** stocks over time and generates **AI-powered insights** for any selected date range.
 
