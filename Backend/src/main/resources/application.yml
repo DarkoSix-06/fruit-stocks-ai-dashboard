@@ -1,0 +1,25 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:stocks;DB_CLOSE_DELAY=-1;MODE=PostgreSQL
+    driverClassName: org.h2.Driver
+    username: sa
+    password: ""
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: false
+    properties:
+      hibernate.format_sql: true
+  h2:
+    console:
+      enabled: true
+      path: /h2
+
+# export GEMINI_API_KEY in your OS; if empty, backend returns a local fallback summary
+app:
+  gemini:
+    apiKey: ${GEMINI_API_KEY:}
+    model: gemini-2.0-flash
