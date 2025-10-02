@@ -70,11 +70,8 @@ A full-stack demo that tracks **Apple**, **Orange**, and **Banana** stocks over 
 
 ### 1) Backend (Spring Boot)
 cd backend
-# (Optional) set your Gemini key for real summaries
-# Windows PowerShell:
 $env:GEMINI_API_KEY="YOUR_GEMINI_KEY"
-# macOS/Linux:
-# export GEMINI_API_KEY="YOUR_GEMINI_KEY"
+
 
 # Build & run with Maven Wrapper
 # Windows:
