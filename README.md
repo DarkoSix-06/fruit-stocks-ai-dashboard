@@ -203,7 +203,7 @@ MIT License
 ## 👤 Author
 
 **Darko Six_Nimesh Tharaka**  
-AI Engineer | Data Science
+AI Engineer | Data Science | Exploring AI, Machine Learning, and Big Data
 
 📧 bandaranayakanimesh@gmail.com  
 🔗 https://www.linkedin.com/in/nimesh-bandaranayake-0a2912304
