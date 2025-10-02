@@ -113,7 +113,7 @@ app:
     apiKey: ${GEMINI_API_KEY:}    # env var; blank falls back to local message
     model: gemini-2.0-flash       # or gemini-2.0-pro
 
-##🧠 AI Summary (How it Works)
+#🧠 AI Summary (How it Works)
 
 Backend computes per-fruit stats from the selected range:
 
@@ -129,7 +129,7 @@ Trend strength is tagged with emojis in the context lines:
 
 If the API call fails or key is missing, a friendly fallback string is returned (no HTTP 500).
 
-##🧪 Demo Data
+#🧪 Demo Data
 
 Seeded on startup (last ~90 days)
 
